@@ -44,8 +44,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                // echo 'Deployed Task Sucessfully !!!'
-                secho 'Deployed Task Sucessfully !!!'
+                echo 'Deployed Task Sucessfully !!!'
+                // secho 'Deployed Task Sucessfully !!!'
                 
             }
         }
