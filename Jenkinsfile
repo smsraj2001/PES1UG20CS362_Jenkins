@@ -39,14 +39,14 @@ pipeline {
         stage('Test') {
             steps {
                 sh './PES1UG20CS362-1'
-                // echo 'Test Stage is Successful !!!'
-                // For error :-
-                secho 'Test Stage is Successful !!!'
+                echo 'Test Stage is Successful !!!'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deployed Task Sucessfully !!!'
+                // echo 'Deployed Task Sucessfully !!!'
+                secho 'Deployed Task Sucessfully !!!'
+                
             }
         }
     }
